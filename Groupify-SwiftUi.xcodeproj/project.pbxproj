@@ -15,6 +15,13 @@
 		6D43CE5B239552A000CF9BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D43CE59239552A000CF9BEC /* LaunchScreen.storyboard */; };
 		6D43CE66239552A100CF9BEC /* Groupify_SwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D43CE65239552A100CF9BEC /* Groupify_SwiftUiTests.swift */; };
 		6D43CE71239552A100CF9BEC /* Groupify_SwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D43CE70239552A100CF9BEC /* Groupify_SwiftUiUITests.swift */; };
+		6DBEC7682395669B00ADB372 /* StartParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC7672395669B00ADB372 /* StartParty.swift */; };
+		6DBEC76A2395698200ADB372 /* JoinParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC7692395698200ADB372 /* JoinParty.swift */; };
+		6DBEC76C23956A6200ADB372 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC76B23956A6200ADB372 /* ViewRouter.swift */; };
+		6DBEC76E23956C3700ADB372 /* ChangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC76D23956C3700ADB372 /* ChangeButton.swift */; };
+		6DBEC7702395735000ADB372 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC76F2395735000ADB372 /* MainPage.swift */; };
+		6DBEC7722395B17D00ADB372 /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC7712395B17D00ADB372 /* Party.swift */; };
+		6DBEC7742395F97900ADB372 /* SongCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEC7732395F97900ADB372 /* SongCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		6D43CE6C239552A100CF9BEC /* Groupify-SwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Groupify-SwiftUiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D43CE70239552A100CF9BEC /* Groupify_SwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groupify_SwiftUiUITests.swift; sourceTree = "<group>"; };
 		6D43CE72239552A100CF9BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBEC7672395669B00ADB372 /* StartParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartParty.swift; sourceTree = "<group>"; };
+		6DBEC7692395698200ADB372 /* JoinParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinParty.swift; sourceTree = "<group>"; };
+		6DBEC76B23956A6200ADB372 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		6DBEC76D23956C3700ADB372 /* ChangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeButton.swift; sourceTree = "<group>"; };
+		6DBEC76F2395735000ADB372 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		6DBEC7712395B17D00ADB372 /* Party.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		6DBEC7732395F97900ADB372 /* SongCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,13 @@
 				6D43CE59239552A000CF9BEC /* LaunchScreen.storyboard */,
 				6D43CE5C239552A000CF9BEC /* Info.plist */,
 				6D43CE56239552A000CF9BEC /* Preview Content */,
+				6DBEC7672395669B00ADB372 /* StartParty.swift */,
+				6DBEC7692395698200ADB372 /* JoinParty.swift */,
+				6DBEC76B23956A6200ADB372 /* ViewRouter.swift */,
+				6DBEC76D23956C3700ADB372 /* ChangeButton.swift */,
+				6DBEC76F2395735000ADB372 /* MainPage.swift */,
+				6DBEC7712395B17D00ADB372 /* Party.swift */,
+				6DBEC7732395F97900ADB372 /* SongCardView.swift */,
 			);
 			path = "Groupify-SwiftUi";
 			sourceTree = "<group>";
@@ -268,8 +289,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D43CE4F2395529A00CF9BEC /* AppDelegate.swift in Sources */,
+				6DBEC7722395B17D00ADB372 /* Party.swift in Sources */,
+				6DBEC7682395669B00ADB372 /* StartParty.swift in Sources */,
+				6DBEC7742395F97900ADB372 /* SongCardView.swift in Sources */,
+				6DBEC76E23956C3700ADB372 /* ChangeButton.swift in Sources */,
+				6DBEC7702395735000ADB372 /* MainPage.swift in Sources */,
 				6D43CE512395529A00CF9BEC /* SceneDelegate.swift in Sources */,
+				6DBEC76C23956A6200ADB372 /* ViewRouter.swift in Sources */,
 				6D43CE532395529A00CF9BEC /* ContentView.swift in Sources */,
+				6DBEC76A2395698200ADB372 /* JoinParty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
